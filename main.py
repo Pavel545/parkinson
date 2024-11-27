@@ -40,7 +40,7 @@ print(f'Accuracy: {accuracy:.2f}')
 
 # Визуализация важности признаков
 plt.figure(figsize=(10, 6))
-xgb.plot_importance(model, importance_type='weight', title='Feature Importance', xlabel='F оценка', ylabel='Функции')
+xgb.plot_importance(model, importance_type='weight', title='важности признаков', xlabel='F оценка', ylabel='Функции')
 plt.show()
 
 # Построение матрицы путаницы
